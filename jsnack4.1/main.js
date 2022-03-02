@@ -39,7 +39,7 @@
 let n,m,l;
 n=parseInt(prompt("inserisci un n"));
 m=parseInt(prompt("inserisci un m"));
-l=parseInt(prompt("inserisci un m"));
+l=parseInt(prompt("inserisci un l"));
 let somma=0;
 let c=0;
 while(n>c){
@@ -50,6 +50,7 @@ while(n>c){
         if(i=m-1){
             if(!(somma>=l)){
                 array=[];
+                i=0;
                 somma=0;
             }
         }
